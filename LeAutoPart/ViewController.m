@@ -2,11 +2,12 @@
 //  ViewController.m
 //  LeAutoPart
 //
-//  Created by 苏晓晓 on 2017/3/29.
+//  Created by leon on 2017/3/29.
 //  Copyright © 2017年 leon. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "LeAutoPart-swift.h"
 
 @interface ViewController ()
 

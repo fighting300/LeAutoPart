@@ -1,0 +1,3 @@
+target :LeAutoPart do
+   pod 'GPUImage'
+end

@@ -7,15 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0ADA011E8C1CF0009AA27B /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0ADA001E8C1CF0009AA27B /* libGPUImage.a */; };
+		BB5150171E8C138D005224E2 /* SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150161E8C138D005224E2 /* SwiftTest.swift */; };
+		BB51502C1E8C15DB005224E2 /* FFNN+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB51501F1E8C15DB005224E2 /* FFNN+Storage.swift */; };
+		BB51502D1E8C15DB005224E2 /* FFNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150201E8C15DB005224E2 /* FFNN.swift */; };
+		BB51502E1E8C15DB005224E2 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150211E8C15DB005224E2 /* FocusView.swift */; };
+		BB51502F1E8C15DB005224E2 /* IDCardOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150221E8C15DB005224E2 /* IDCardOCR.swift */; };
+		BB5150301E8C15DB005224E2 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150231E8C15DB005224E2 /* Matrix.swift */; };
+		BB5150311E8C15DB005224E2 /* OCR-Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150241E8C15DB005224E2 /* OCR-Training.swift */; };
+		BB5150321E8C15DB005224E2 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150251E8C15DB005224E2 /* Operations.swift */; };
+		BB5150331E8C15DB005224E2 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150261E8C15DB005224E2 /* Random.swift */; };
+		BB5150341E8C15DB005224E2 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150271E8C15DB005224E2 /* ScannerViewController.swift */; };
+		BB5150351E8C15DB005224E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150281E8C15DB005224E2 /* Storage.swift */; };
+		BB5150361E8C15DB005224E2 /* UnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150291E8C15DB005224E2 /* UnionFind.swift */; };
+		BB5150371E8C15DB005224E2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB51502A1E8C15DB005224E2 /* Utils.swift */; };
+		BB5150381E8C15DB005224E2 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB51502B1E8C15DB005224E2 /* Vector.swift */; };
 		BBAB37FE1E8C0B740093142F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAB37FD1E8C0B740093142F /* main.m */; };
 		BBAB38011E8C0B740093142F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAB38001E8C0B740093142F /* AppDelegate.m */; };
 		BBAB38041E8C0B740093142F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAB38031E8C0B740093142F /* ViewController.m */; };
 		BBAB38071E8C0B740093142F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAB38051E8C0B740093142F /* Main.storyboard */; };
 		BBAB38091E8C0B740093142F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAB38081E8C0B740093142F /* Assets.xcassets */; };
 		BBAB380C1E8C0B740093142F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAB380A1E8C0B740093142F /* LaunchScreen.storyboard */; };
+		DF0CA61A0120FAD592747771 /* libPods-LeAutoPart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA1C1016BCCD086B6F3468F /* libPods-LeAutoPart.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A8CF64B576DFA8CFD032492 /* Pods-LeAutoPart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeAutoPart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeAutoPart/Pods-LeAutoPart.debug.xcconfig"; sourceTree = "<group>"; };
+		BB0ADA001E8C1CF0009AA27B /* libGPUImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGPUImage.a; path = "../../../../Library/Developer/Xcode/DerivedData/LeAutoPart-ekkvhlgiupzkxlchdwmzjeiykzdw/Build/Products/Debug-iphonesimulator/GPUImage/libGPUImage.a"; sourceTree = "<group>"; };
+		BB5150151E8C138D005224E2 /* LeAutoPart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeAutoPart-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB5150161E8C138D005224E2 /* SwiftTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTest.swift; sourceTree = "<group>"; };
+		BB51501E1E8C15DB005224E2 /* ChineseIDCardOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseIDCardOCR.h; sourceTree = "<group>"; };
+		BB51501F1E8C15DB005224E2 /* FFNN+Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FFNN+Storage.swift"; sourceTree = "<group>"; };
+		BB5150201E8C15DB005224E2 /* FFNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFNN.swift; sourceTree = "<group>"; };
+		BB5150211E8C15DB005224E2 /* FocusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		BB5150221E8C15DB005224E2 /* IDCardOCR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDCardOCR.swift; sourceTree = "<group>"; };
+		BB5150231E8C15DB005224E2 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		BB5150241E8C15DB005224E2 /* OCR-Training.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OCR-Training.swift"; sourceTree = "<group>"; };
+		BB5150251E8C15DB005224E2 /* Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		BB5150261E8C15DB005224E2 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		BB5150271E8C15DB005224E2 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		BB5150281E8C15DB005224E2 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		BB5150291E8C15DB005224E2 /* UnionFind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnionFind.swift; sourceTree = "<group>"; };
+		BB51502A1E8C15DB005224E2 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BB51502B1E8C15DB005224E2 /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 		BBAB37F91E8C0B740093142F /* LeAutoPart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeAutoPart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAB37FD1E8C0B740093142F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BBAB37FF1E8C0B740093142F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +60,8 @@
 		BBAB38081E8C0B740093142F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBAB380B1E8C0B740093142F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBAB380D1E8C0B740093142F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA1C1016BCCD086B6F3468F /* libPods-LeAutoPart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeAutoPart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE35CDBEA86D3846E7CEA4D9 /* Pods-LeAutoPart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeAutoPart.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeAutoPart/Pods-LeAutoPart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +69,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0ADA011E8C1CF0009AA27B /* libGPUImage.a in Frameworks */,
+				DF0CA61A0120FAD592747771 /* libPods-LeAutoPart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56CAD622ACC0F5364EE0A547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB0ADA001E8C1CF0009AA27B /* libGPUImage.a */,
+				CDA1C1016BCCD086B6F3468F /* libPods-LeAutoPart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB51501D1E8C15DB005224E2 /* SwiftScan */ = {
+			isa = PBXGroup;
+			children = (
+				BB51501E1E8C15DB005224E2 /* ChineseIDCardOCR.h */,
+				BB51501F1E8C15DB005224E2 /* FFNN+Storage.swift */,
+				BB5150201E8C15DB005224E2 /* FFNN.swift */,
+				BB5150211E8C15DB005224E2 /* FocusView.swift */,
+				BB5150221E8C15DB005224E2 /* IDCardOCR.swift */,
+				BB5150231E8C15DB005224E2 /* Matrix.swift */,
+				BB5150241E8C15DB005224E2 /* OCR-Training.swift */,
+				BB5150251E8C15DB005224E2 /* Operations.swift */,
+				BB5150261E8C15DB005224E2 /* Random.swift */,
+				BB5150271E8C15DB005224E2 /* ScannerViewController.swift */,
+				BB5150281E8C15DB005224E2 /* Storage.swift */,
+				BB5150291E8C15DB005224E2 /* UnionFind.swift */,
+				BB51502A1E8C15DB005224E2 /* Utils.swift */,
+				BB51502B1E8C15DB005224E2 /* Vector.swift */,
+			);
+			path = SwiftScan;
+			sourceTree = "<group>";
+		};
 		BBAB37F01E8C0B740093142F = {
 			isa = PBXGroup;
 			children = (
 				BBAB37FB1E8C0B740093142F /* LeAutoPart */,
 				BBAB37FA1E8C0B740093142F /* Products */,
+				CC9D6DDB287B0804D8805B8E /* Pods */,
+				56CAD622ACC0F5364EE0A547 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +128,9 @@
 		BBAB37FB1E8C0B740093142F /* LeAutoPart */ = {
 			isa = PBXGroup;
 			children = (
+				BB51501D1E8C15DB005224E2 /* SwiftScan */,
+				BB5150161E8C138D005224E2 /* SwiftTest.swift */,
+				BB5150151E8C138D005224E2 /* LeAutoPart-Bridging-Header.h */,
 				BBAB37FF1E8C0B740093142F /* AppDelegate.h */,
 				BBAB38001E8C0B740093142F /* AppDelegate.m */,
 				BBAB38021E8C0B740093142F /* ViewController.h */,
@@ -79,6 +152,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CC9D6DDB287B0804D8805B8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A8CF64B576DFA8CFD032492 /* Pods-LeAutoPart.debug.xcconfig */,
+				DE35CDBEA86D3846E7CEA4D9 /* Pods-LeAutoPart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBAB38101E8C0B740093142F /* Build configuration list for PBXNativeTarget "LeAutoPart" */;
 			buildPhases = (
+				0246C599138A3AA399B7D5A1 /* [CP] Check Pods Manifest.lock */,
 				BBAB37F51E8C0B740093142F /* Sources */,
 				BBAB37F61E8C0B740093142F /* Frameworks */,
 				BBAB37F71E8C0B740093142F /* Resources */,
+				5C26F548908D4E0E2B511B53 /* [CP] Embed Pods Frameworks */,
+				FBC79B0522CF15145690F80E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,6 +196,7 @@
 					BBAB37F81E8C0B740093142F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = GRX8HAETWF;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -146,14 +232,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0246C599138A3AA399B7D5A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C26F548908D4E0E2B511B53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeAutoPart/Pods-LeAutoPart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC79B0522CF15145690F80E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeAutoPart/Pods-LeAutoPart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBAB37F51E8C0B740093142F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BBAB38041E8C0B740093142F /* ViewController.m in Sources */,
+				BB5150351E8C15DB005224E2 /* Storage.swift in Sources */,
+				BB51502E1E8C15DB005224E2 /* FocusView.swift in Sources */,
+				BB5150301E8C15DB005224E2 /* Matrix.swift in Sources */,
+				BB5150321E8C15DB005224E2 /* Operations.swift in Sources */,
+				BB51502C1E8C15DB005224E2 /* FFNN+Storage.swift in Sources */,
+				BB5150381E8C15DB005224E2 /* Vector.swift in Sources */,
+				BB5150311E8C15DB005224E2 /* OCR-Training.swift in Sources */,
+				BB5150371E8C15DB005224E2 /* Utils.swift in Sources */,
+				BB5150361E8C15DB005224E2 /* UnionFind.swift in Sources */,
 				BBAB38011E8C0B740093142F /* AppDelegate.m in Sources */,
+				BB51502D1E8C15DB005224E2 /* FFNN.swift in Sources */,
+				BB5150331E8C15DB005224E2 /* Random.swift in Sources */,
+				BB51502F1E8C15DB005224E2 /* IDCardOCR.swift in Sources */,
+				BB5150341E8C15DB005224E2 /* ScannerViewController.swift in Sources */,
 				BBAB37FE1E8C0B740093142F /* main.m in Sources */,
+				BB5150171E8C138D005224E2 /* SwiftTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,25 +419,36 @@
 		};
 		BBAB38111E8C0B740093142F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8CF64B576DFA8CFD032492 /* Pods-LeAutoPart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GRX8HAETWF;
 				INFOPLIST_FILE = LeAutoPart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leon.LeAutoPart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeAutoPart/LeAutoPart-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		BBAB38121E8C0B740093142F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE35CDBEA86D3846E7CEA4D9 /* Pods-LeAutoPart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GRX8HAETWF;
 				INFOPLIST_FILE = LeAutoPart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leon.LeAutoPart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeAutoPart/LeAutoPart-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -312,6 +471,7 @@
 				BBAB38121E8C0B740093142F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
