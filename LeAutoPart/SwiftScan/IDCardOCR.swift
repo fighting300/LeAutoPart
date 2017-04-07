@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import GPUImage
 
 internal var recognizableCharacters = "X0123456789"
 

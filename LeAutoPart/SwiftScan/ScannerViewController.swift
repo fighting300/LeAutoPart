@@ -8,7 +8,6 @@
 
 import UIKit
 import AVFoundation
-import GPUImage
 
 public struct IDCard {
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3517DF5D1E97368100DF350B /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3517DF5C1E97368100DF350B /* libReact.a */; };
 		BB0ADA011E8C1CF0009AA27B /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0ADA001E8C1CF0009AA27B /* libGPUImage.a */; };
 		BB5150171E8C138D005224E2 /* SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5150161E8C138D005224E2 /* SwiftTest.swift */; };
 		BB51502C1E8C15DB005224E2 /* FFNN+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB51501F1E8C15DB005224E2 /* FFNN+Storage.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3517DF5C1E97368100DF350B /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../../Library/Developer/Xcode/DerivedData/LeAutoPart-eyqfghxknmvnmtfbqfifbsewenok/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
 		9A8CF64B576DFA8CFD032492 /* Pods-LeAutoPart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeAutoPart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeAutoPart/Pods-LeAutoPart.debug.xcconfig"; sourceTree = "<group>"; };
 		BB0ADA001E8C1CF0009AA27B /* libGPUImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGPUImage.a; path = "../../../../Library/Developer/Xcode/DerivedData/LeAutoPart-ekkvhlgiupzkxlchdwmzjeiykzdw/Build/Products/Debug-iphonesimulator/GPUImage/libGPUImage.a"; sourceTree = "<group>"; };
 		BB5150151E8C138D005224E2 /* LeAutoPart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeAutoPart-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3517DF5D1E97368100DF350B /* libReact.a in Frameworks */,
 				BB0ADA011E8C1CF0009AA27B /* libGPUImage.a in Frameworks */,
 				DF0CA61A0120FAD592747771 /* libPods-LeAutoPart.a in Frameworks */,
 			);
@@ -80,6 +83,7 @@
 		56CAD622ACC0F5364EE0A547 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3517DF5C1E97368100DF350B /* libReact.a */,
 				BB0ADA001E8C1CF0009AA27B /* libGPUImage.a */,
 				CDA1C1016BCCD086B6F3468F /* libPods-LeAutoPart.a */,
 			);
@@ -421,11 +425,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A8CF64B576DFA8CFD032492 /* Pods-LeAutoPart.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GRX8HAETWF;
 				INFOPLIST_FILE = LeAutoPart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leon.LeAutoPart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +445,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE35CDBEA86D3846E7CEA4D9 /* Pods-LeAutoPart.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GRX8HAETWF;
 				INFOPLIST_FILE = LeAutoPart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leon.LeAutoPart;
 				PRODUCT_NAME = "$(TARGET_NAME)";

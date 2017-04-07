@@ -1,12 +1,24 @@
 PODS:
   - GPUImage (0.1.7)
+  - React/Core (0.11.0)
+  - React/RCTNetwork (0.11.0):
+    - React/Core
+  - React/RCTText (0.11.0):
+    - React/Core
+  - React/RCTWebSocket (0.11.0):
+    - React/Core
 
 DEPENDENCIES:
   - GPUImage
+  - React/Core
+  - React/RCTNetwork
+  - React/RCTText
+  - React/RCTWebSocket
 
 SPEC CHECKSUMS:
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
 
-PODFILE CHECKSUM: 33e09fcd7615c715481c6b05e00b82be71bb09ac
+PODFILE CHECKSUM: 11f3cba043d6848da2fcd13ed955341996510c9f
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0
