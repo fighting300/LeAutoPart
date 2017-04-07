@@ -7,6 +7,7 @@ PODS:
     - React/Core
   - React/RCTWebSocket (0.11.0):
     - React/Core
+  - TesseractOCRiOS (4.0.0)
 
 DEPENDENCIES:
   - GPUImage
@@ -14,11 +15,13 @@ DEPENDENCIES:
   - React/RCTNetwork
   - React/RCTText
   - React/RCTWebSocket
+  - TesseractOCRiOS (= 4.0.0)
 
 SPEC CHECKSUMS:
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
 
-PODFILE CHECKSUM: 11f3cba043d6848da2fcd13ed955341996510c9f
+PODFILE CHECKSUM: 75ac6cc20368b9100a59e64c63cc23483b20c203
 
 COCOAPODS: 1.2.0

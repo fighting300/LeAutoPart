@@ -1,9 +1,10 @@
 target :LeAutoPart do
-   pod 'GPUImage'
-   pod 'React', :subspecs => [
-	'Core',
-	'RCTNetwork',
-	'RCTText',
-	'RCTWebSocket']
+    pod 'GPUImage'
+    pod 'React', :subspecs => [
+        'Core',
+        'RCTNetwork',
+        'RCTText',
+        'RCTWebSocket']
+    pod 'TesseractOCRiOS', '4.0.0'
 
 end
